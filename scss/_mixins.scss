@@ -1,0 +1,10 @@
+// _mixins.scss
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fontSizeUp($size) {
+  font-size: $size * 4;
+}
